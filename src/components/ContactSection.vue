@@ -48,7 +48,7 @@ import { Send, Mail, Instagram } from 'lucide-vue-next'
             <h3>Хотите получить бесплатный аудит?</h3>
             <p>Нажмите на кнопку ниже, и мы автоматически сформируем заявку в Telegram</p>
             
-            <a href="https://t.me/bmagency_admin?text=Здравствуйте! Хочу получить бесплатный аудит моего бизнеса." class="btn-primary btn-audit full-width" target="_blank">
+            <a href="https://t.me/bmagency_admin?text=Здравствуйте! Хотел бы пройти бесплатный аудит моего магазина на маркетплейсах. Готов предоставить всю необходимую информацию. Напишите, пожалуйста, что требуется." class="btn-primary btn-audit full-width" target="_blank">
               <Send size="20" />
               <span>Получить бесплатный аудит</span>
             </a>
