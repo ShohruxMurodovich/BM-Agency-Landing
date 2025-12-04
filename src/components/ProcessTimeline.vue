@@ -269,6 +269,27 @@ const steps = [
     padding-top: var(--spacing-md);
     border-top: 1px solid var(--color-border);
     animation: slideDown 0.4s ease;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar for step content */
+.step-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.step-content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.step-content::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 10px;
+}
+
+.step-content::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-light);
 }
 
 @keyframes slideDown {
@@ -395,6 +416,10 @@ const steps = [
     .timeline-item:hover .step-card,
     .timeline-item.expanded .step-card {
         transform: none;
+    }
+
+    .step-content {
+        max-height: 300px;
     }
 }
 </style>
