@@ -1,5 +1,5 @@
 <script setup>
-import { Percent, Award, Settings, BarChart2, TrendingUp, Shield } from 'lucide-vue-next'
+import { Percent, Award, Settings, BarChart2, TrendingUp, Shield, UserCog, Cpu } from 'lucide-vue-next'
 
 const advantages = [
   {
@@ -31,6 +31,16 @@ const advantages = [
     icon: Shield,
     title: 'Безопасность',
     description: 'Гарантируем сохранность ваших данных и товаров. Работаем по договору.'
+  },
+  {
+    icon: UserCog,
+    title: 'Индивидуальный подход',
+    description: 'Персональная стратегия и менеджер под ваш бизнес — никаких шаблонных решений.'
+  },
+  {
+    icon: Cpu,
+    title: 'Технологичность и автоматизация',
+    description: 'Используем современные инструменты и интеграции, чтобы ускорять процессы и снижать ошибки.'
   }
 ]
 </script>

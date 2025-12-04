@@ -763,16 +763,6 @@ section {
     position: relative;
 }
 
-.process-timeline::before {
-    content: '';
-    position: absolute;
-    left: 30px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: var(--color-gradient);
-}
-
 .timeline-item {
     display: flex;
     gap: var(--spacing-md);
