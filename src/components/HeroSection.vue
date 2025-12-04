@@ -238,11 +238,68 @@ import { ArrowRight, TrendingUp, ShieldCheck, Award } from 'lucide-vue-next'
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
+
+/* Ultra-compact mobile optimization (≤425px) */
+@media (max-width: 425px) {
+    .hero {
+        padding: 5rem 0 3rem;
+        min-height: auto;
+    }
+
+    .status-badge {
+        display: none; /* Hide badge on very small screens */
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.875rem;
+        line-height: 1.5;
+        margin-bottom: 1.25rem;
+    }
+
+    .hero-features {
+        display: none; /* Hide features on very small screens to save space */
+    }
+
+    .hero-cta {
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-large {
+        padding: 0.875rem 1.25rem;
+        font-size: 0.875rem;
+    }
+
+    .hero-stats {
+        padding: 1rem 0.75rem;
+        gap: 0.75rem;
+    }
+
+    .stat-item {
+        padding: 0.5rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+}
 </style>
+```

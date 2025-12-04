@@ -1352,6 +1352,54 @@ section {
     }
 }
 
+/* Extra Small Mobile (≤425px) */
+@media (max-width: 425px) {
+    :root {
+        --spacing-sm: 0.75rem;
+        --spacing-md: 1rem;
+        --spacing-lg: 2rem;
+        --spacing-xl: 2.5rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.875rem;
+    }
+
+    /* Compact all cards */
+    .service-card,
+    .pricing-card,
+    .advantage-card,
+    .case-card,
+    .metric-card,
+    .faq-item {
+        padding: 1rem;
+    }
+
+    /* Timeline adjustments */
+    .step-badge {
+        width: 32px;
+        height: 32px;
+    }
+
+    .step-card {
+        margin-left: 45px;
+        padding: 0.875rem;
+    }
+
+    .timeline-connector {
+        left: 16px;
+    }
+}
+
 /* Small Mobile */
 @media (max-width: 480px) {
     :root {
