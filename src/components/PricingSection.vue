@@ -76,12 +76,12 @@ const tariffs = [
 
           <ul class="pricing-features">
             <li v-for="(feature, fIndex) in tariff.features" :key="fIndex">
-              <Check size="16" class="check-icon" />
+              <Check size="30" class="check-icon" />
               {{ feature }}
             </li>
           </ul>
 
-          <button class="btn-primary full-width">Выбрать тариф</button>
+          <a href="#contact" class="btn-primary full-width">Выбрать тариф</a>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ const tariffs = [
 
 .pricing-card.featured {
     border-color: var(--color-primary);
-    background: linear-gradient(180deg, rgba(0, 220, 130, 0.05) 0%, var(--color-bg-tertiary) 100%);
+    background: linear-gradient(180deg, rgba(139, 92, 246, 0.05) 0%, var(--color-bg-tertiary) 100%);
     transform: scale(1.05);
     z-index: 2;
     box-shadow: var(--shadow-glow);
@@ -201,6 +201,7 @@ const tariffs = [
     gap: 0.75rem;
     margin-bottom: 1rem;
     color: var(--color-text-secondary);
+    padding-left: 20px;
 }
 
 .check-icon {

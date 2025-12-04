@@ -712,15 +712,6 @@ section {
     border-bottom: none;
 }
 
-.pricing-features li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--color-primary);
-    font-weight: bold;
-    font-size: var(--font-size-lg);
-}
-
 /* ===== Advantages Section ===== */
 .advantages-grid {
     display: grid;
