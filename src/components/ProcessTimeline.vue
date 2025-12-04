@@ -422,4 +422,64 @@ const steps = [
         max-height: 300px;
     }
 }
+
+/* Ultra-compact mobile (≤425px) */
+@media (max-width: 425px) {
+    .timeline-connector {
+        left: 16px;
+    }
+    
+    .step-badge {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .step-number {
+        font-size: var(--font-size-sm);
+    }
+    
+    .step-card {
+        margin-left: 45px;
+        padding: 0.875rem;
+    }
+
+    .step-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .step-title {
+        font-size: var(--font-size-md);
+    }
+
+    .step-short {
+        font-size: 0.8rem;
+    }
+
+    .step-content {
+        max-height: 250px;
+        padding-top: 0.75rem;
+        margin-top: 0.75rem;
+    }
+
+    .step-description,
+    .benefits-list li {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .step-benefits {
+        padding: 0.75rem;
+    }
+
+    .step-goal {
+        font-size: 0.85rem;
+        padding-left: 0.75rem;
+    }
+
+    .toggle-btn {
+        padding: 0.75rem;
+        font-size: 0.8rem;
+    }
+}
 </style>
