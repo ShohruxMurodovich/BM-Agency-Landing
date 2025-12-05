@@ -59,7 +59,7 @@ const closeMenu = () => {
 }
 
 .logo img {
-    height: 40px;
+    height: 55px;
     width: auto;
 }
 

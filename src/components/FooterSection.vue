@@ -53,7 +53,7 @@
 }
 
 .footer-logo img {
-    height: 40px;
+    height: 50px;
     margin-bottom: var(--spacing-md);
 }
 
