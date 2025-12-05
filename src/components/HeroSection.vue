@@ -59,12 +59,8 @@ import { ArrowRight, TrendingUp, ShieldCheck, Award } from 'lucide-vue-next'
             <div class="stat-label">маркетплейсов</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">1000+</div>
+            <div class="stat-number">100+</div>
             <div class="stat-label">проектов</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">7.8%</div>
-            <div class="stat-label">от оборота</div>
           </div>
         </div>
       </div>
