@@ -1,5 +1,5 @@
 <script setup>
-import { TrendingUp, ArrowUpRight, Zap } from 'lucide-vue-next'
+import { TrendingUp, Zap } from 'lucide-vue-next'
 
 const cases = [
   {
@@ -54,9 +54,6 @@ const cases = [
           
           <div class="case-header">
             <span class="case-category">{{ caseItem.category }}</span>
-            <button class="case-link">
-              <ArrowUpRight size="20" />
-            </button>
           </div>
           
           <h3 class="case-title">{{ caseItem.title }}</h3>
@@ -146,9 +143,6 @@ const cases = [
 }
 
 .case-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     margin-bottom: var(--spacing-md);
 }
 
@@ -159,25 +153,6 @@ const cases = [
     border-radius: 20px;
     font-size: var(--font-size-xs);
     font-weight: 600;
-}
-
-.case-link {
-    background: rgba(255, 255, 255, 0.05);
-    border: none;
-    color: var(--color-text-primary);
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: var(--transition-fast);
-}
-
-.case-card:hover .case-link {
-    background: var(--color-primary);
-    color: var(--color-bg-primary);
 }
 
 .case-title {

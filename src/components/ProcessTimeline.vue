@@ -158,8 +158,8 @@ const steps = [
 
 .timeline-connector {
     position: absolute;
-    left: 25px;
-    top: 70px;
+    left: 32px;
+    top: 80px;
     width: 2px;
     height: calc(100% + var(--spacing-lg));
     background: linear-gradient(180deg, var(--color-primary) 0%, transparent 100%);
@@ -169,9 +169,9 @@ const steps = [
 .step-badge {
     position: absolute;
     left: 0;
-    top: 15px;
-    width: 50px;
-    height: 50px;
+    top: 10px;
+    width: 64px;
+    height: 64px;
     background: var(--color-bg-tertiary);
     border: 2px solid var(--color-primary);
     border-radius: 50%;
@@ -190,7 +190,7 @@ const steps = [
 }
 
 .step-number {
-    font-size: var(--font-size-xl);
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-text-primary);
     background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
@@ -205,7 +205,7 @@ const steps = [
 }
 
 .step-card {
-    margin-left: 70px;
+    margin-left: 85px;
     background: var(--color-bg-secondary);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
