@@ -1,7 +1,6 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
-import AnalyticsDashboard from './components/AnalyticsDashboard.vue'
 import ServicesGrid from './components/ServicesGrid.vue'
 import ProcessTimeline from './components/ProcessTimeline.vue'
 import PricingSection from './components/PricingSection.vue'
@@ -40,7 +39,6 @@ onMounted(() => {
     <NavBar />
     <main>
       <HeroSection />
-      <AnalyticsDashboard />
       <AdvantagesSection />
       <ServicesGrid />
       <ProcessTimeline />
