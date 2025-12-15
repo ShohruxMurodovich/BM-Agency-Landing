@@ -137,6 +137,28 @@ Secondary Text: #9CA3AF (Cool Grey)
 - Safari (latest)
 - Edge (latest)
 
+## 🚀 Deployment (VPS / Nginx)
+
+If you are deploying to a VPS (like PSCloud), follow these steps:
+
+1.  **Build the project** on your local machine or server:
+    ```bash
+    npm run build
+    ```
+    This will create a `dist` folder.
+
+2.  **Configure Nginx**:
+    Copy the provided `nginx.conf` or use its content for your site configuration.
+    
+    *Key Nginx settings for Vue SPA:*
+    - Root directory should point to `/dist` folder.
+    - `try_files $uri $uri/ /index.html;` is required to prevent 404s on page refresh.
+
+3.  **Restart Nginx**:
+    ```bash
+    sudo systemctl restart nginx
+    ```
+
 ## 🤝 Contributing
 
 This is a private project for BM Agency. For inquiries, please contact via the methods listed above.
