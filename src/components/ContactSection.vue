@@ -206,5 +206,19 @@ import { Send, Mail, Instagram } from 'lucide-vue-next'
         grid-template-columns: 1fr;
         gap: var(--spacing-lg);
     }
+    
+    .btn-audit {
+        white-space: normal !important;
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .cta-card {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 1.5rem !important; /* Reduce padding on mobile */
+    }
 }
 </style>

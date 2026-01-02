@@ -211,7 +211,7 @@ const steps = [
     border-radius: var(--radius-lg);
     padding: var(--spacing-md);
     transition: all 0.3s ease;
-    width: 100%;
+    width: auto; /* Fix overflow caused by 100% + margin */
 }
 
 .timeline-item:hover .step-card,

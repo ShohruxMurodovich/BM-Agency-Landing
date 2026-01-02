@@ -1198,10 +1198,10 @@ section {
     }
 
     /* Hero Section */
-    .hero-title {
+    /* .hero-title {
         font-size: 2.5rem;
         line-height: 1.2;
-    }
+    } */
 
     .hero-subtitle {
         font-size: var(--font-size-md);
@@ -1410,9 +1410,9 @@ section {
     }
 
     /* Typography */
-    .hero-title {
+    /* .hero-title {
         font-size: 2rem;
-    }
+    } */
 
     .section-title {
         font-size: 1.75rem;
@@ -1479,6 +1479,29 @@ section {
     .btn-icon {
         width: 40px;
         height: 40px;
+    }
+
+    /* Global Mobile Constraint to prevent overflow */
+    .container,
+    .hero-content,
+    .hero-features,
+    .hero-cta,
+    .hero-stats {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden;
+    }
+
+    .hero-stats {
+        grid-template-columns: 1fr !important;
+        display: grid !important;
+    }
+
+    .stat-item {
+        width: 100% !important;
+        min-width: 0 !important;
     }
 }
 
